@@ -135,7 +135,9 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
-
+.text-yellow{
+  color: var(--orange-yellow-crayola);
+}
 
 
 
