@@ -139,7 +139,27 @@ body { background: var(--smoky-black); }
   color: var(--orange-yellow-crayola);
 }
 
+/*this sections for hover certification*/
 
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+}
+.certificate {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  top: 0%;
+  right: 0;
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.timeline-item:hover .certificate {
+  display: block;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
